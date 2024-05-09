@@ -1,0 +1,228 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Cabin:ital,wght@0,400..700;1,400..700&family=Hammersmith+One&display=swap');
+.header{
+    width: 100vw;
+    background: rgb(44, 44, 44);
+}
+.nav__item{
+    color: rgb(228, 228, 228);
+    font-family: Arimo;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-right: 35px ;
+}
+
+.nav__item_main{
+    color: rgb(0, 196, 240);
+    font-family: Hammersmith One;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-right: 35px ;
+}
+
+.nav__list{
+    display: flex;
+    list-style: none;
+}
+
+.container__header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+.header_title{
+    color: rgb(255, 255, 255);
+    font-family: Cabin;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.hero-block__image{
+width: 400px;
+}
+
+.hero-block__greetings{
+    color: rgb(0, 0, 0);
+    font-family: Arimo;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 83px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.container__hero-block{
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    display: flex;
+}
+
+.hero-block{
+    background: rgb(207, 207, 207);
+    width: 1512px;
+    height: 707px;
+    left: 1px;
+    right: -1px;
+    top: 120px;
+    bottom: 2938px;
+}
+
+.hero-block__link{
+    background-color: rgb(226, 163, 0);
+    padding: 10px;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.hero-block__text{
+    width: 300px;
+}
+.about{
+    background: rgb(207, 207, 207);
+    width: 1512px;
+    height: 831px;
+    left: 0;
+    right: 0;
+    top: 827px;
+    bottom: 2107px;
+}
+.about__title{
+    position: absolute;
+    width: 231px;
+    height: 55px;
+    left: 630px;
+    right: 651px;
+    top: 66.5px;
+    bottom: 709.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.about__list{
+    list-style: none;
+}
+
+.skills__full{
+    background: rgb(0, 196, 240);
+    width: 356px;
+    height: 10px;
+}
+.done__power{
+    background: rgb(44, 44, 44);
+    width: 355px;
+    height: 10px;
+    left: 0;
+    right: 1px;
+    top: 0;
+    bottom: 0;
+}
+.done__philosophy{
+    background: rgb(44, 44, 44);
+    width: 300px;
+    height: 10px;
+    left: 0;
+    right: 1px;
+    top: 0;
+    bottom: 0;
+}
+.done__protecting-the-weak{
+    background: rgb(44, 44, 44);
+    width: 25px;
+    height: 10px;
+    left: 0;
+    right: 1px;
+    top: 0;
+    bottom: 0;
+}
+.about__title__skills{
+    text-align: center;
+}
+.about__progress-bar{
+    position: absolute;
+    width: 356px;
+    height: 352.5px;
+    left: 199px;
+    right: 957px;
+    top: 309px;
+    bottom: 169.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+}
+.container__about{
+    position: absolute;
+    width: 1512px;
+    height: 831px;
+    left: 0;
+    right: 0;
+    top: 827px;
+    bottom: 2107px;
+}
+.photo__autora{
+    position: absolute;
+width: 632px;
+height: 575.47px;
+left: 681px;
+right: 199px;
+top: 215px;
+bottom: 40.53px;
+}
+.video{
+    position: absolute;
+    width: 1512px;
+    height: 922px;
+    left: 0;
+    right: 0;
+    top: 1658px;
+    bottom: 1185px;
+}
+.video__title{
+    position: absolute;
+    width: 147px;
+    height: 48px;
+    left: 683px;
+    right: 682px;
+    top: 70px;
+    bottom: 804px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.video__realno_video{
+    position: absolute;
+width: 1111px;
+height: 659px;
+left: 203px;
+right: 198px;
+top: 169px;
+bottom: 94px;
+}
+.kol{
+    position: absolute;
+width: 1111px;
+height: 659px;
+left: 203px;
+top: 169px;
+border-radius: 29px;
+box-shadow: 0px 4px 15px 0px rgba(27, 27, 27, 0.28);
+background: linear-gradient(135.29deg, rgb(65, 65, 65) 0%,rgb(45, 45, 45) 100.297%);
+}
